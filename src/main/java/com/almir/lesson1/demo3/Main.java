@@ -1,4 +1,4 @@
-package com.almir.demo3;
+package com.almir.lesson1.demo3;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.almir.demo2;
+package com.almir.lesson1.demo2;
 
 class Runner implements Runnable {
     public void run() {

@@ -1,4 +1,4 @@
-package com.almir.demo1;
+package com.almir.lesson1.demo1;
 
 class Runner extends Thread {
     public void run() {
