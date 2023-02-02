@@ -1,4 +1,4 @@
-package com.almir.lesson2.basicsinchronization;
+package com.almir.lesson2_basicSinchronization;
 
 import java.util.Scanner;
 
