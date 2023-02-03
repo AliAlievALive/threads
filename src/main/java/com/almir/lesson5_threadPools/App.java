@@ -1,4 +1,4 @@
-package com.almir.lesson5_threadPools.lesson4_multipleLocks;
+package com.almir.lesson5_threadPools;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
