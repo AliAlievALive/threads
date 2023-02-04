@@ -1,8 +1,10 @@
 package com.almir.lesson8_waitNotify;
 
+import com.almir.Util.InterfaceProcessor;
+
 import java.util.Scanner;
 
-public class Processor {
+public class Processor implements InterfaceProcessor {
     public void produce() throws InterruptedException {
         synchronized (this) {
             System.out.println("Producer thread running ...");
