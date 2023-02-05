@@ -1,11 +1,13 @@
 package com.almir.lesson10_re_entrantLocks;
 
+import com.almir.Util.InterfaceRunner;
+
 import java.util.Scanner;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Runner {
+public class Runner implements InterfaceRunner {
     private int count = 0;
     private final Lock lock = new ReentrantLock();
     private final Condition cond = lock.newCondition();
