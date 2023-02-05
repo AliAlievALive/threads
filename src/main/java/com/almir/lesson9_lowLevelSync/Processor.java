@@ -6,9 +6,9 @@ import java.util.LinkedList;
 import java.util.Random;
 
 public class Processor implements InterfaceProcessor {
-    private LinkedList<Integer> list = new LinkedList<>();
+    private final LinkedList<Integer> list = new LinkedList<>();
     private final int LIMIT = 10;
-    private Object lock = new Object();
+    private final Object lock = new Object();
 
     public void produce() throws InterruptedException {
         int value = 0;
